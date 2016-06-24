@@ -11,7 +11,7 @@ TsOrm使用非常简单,代码如下：
     //SqlServer
     IOrm Sqlserver = OrmFactory.GetOrm(ServerType.SqlServer, connectionstring);
     //MySql
-    IOrm MySql = OrmFactory.GetOrm(ServerType.SqlServer, connectionstring);
+    IOrm MySql = OrmFactory.GetOrm(ServerType.MySql, connectionstring);
 ```
 #### 执行SQL
 ##### 查询操作
