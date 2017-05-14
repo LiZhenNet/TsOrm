@@ -1,7 +1,7 @@
 ##**TsOrm**
-**TsOrm是为了学习DynamicMethod和Lambda表达式而写出来的简易的ORM,开发时参考了一些博客园大神的文章,如果你不想使用EF,NH等重量级Orm,欢迎大家学习和使用TsOrm！**
 
-**没写单元测试,目前主要在Mysql使用,还未发现什么Bug**
+**TsOrm是为了学习DynamicMethod和Lambda表达式而写出来的简易的ORM,如果你不想使用EF,NH等重量级Orm,欢迎大家学习和使用TsOrm！**
+
  
 ###How To Use
 TsOrm使用非常简单,代码如下：
@@ -64,7 +64,7 @@ TsOrm使用非常简单,代码如下：
     }
     
 ```
-###扩展其他数据库
+### 扩展其他数据库
 参考MySqlOrm 继承BaseOrm<T> 或 BaseOrm
 重写下列方法:
 > * object ExecuteScalar()
