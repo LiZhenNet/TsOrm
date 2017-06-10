@@ -1,11 +1,10 @@
-##**TsOrm**
 
 **TsOrm是为了学习DynamicMethod和Lambda表达式而写出来的简易的ORM,如果你不想使用EF,NH等重量级Orm,欢迎大家学习和使用TsOrm！**
 
  
-###How To Use
+### How To Use
 TsOrm使用非常简单,代码如下：
-####创建IOrm , TsOrm 支持 SqlServer、MySql、PostgreSQL 
+#### 创建IOrm , TsOrm 支持 SqlServer、MySql、PostgreSQL 
 ```
     string connectionstring ="DataSource=.\\SQLEXPRESS;uid=sa;pwd=root;Initial Catalog=test;Integrated Security=SSPI;Integrated Security=True";
     //SqlServer
