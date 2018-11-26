@@ -1,5 +1,5 @@
 
-**TsOrm是为了学习DynamicMethod和Lambda表达式而写出来的简易的ORM,如果你不想使用EF,NH等重量级Orm,欢迎大家学习和使用TsOrm！**
+**TsOrm: too simple, 如果你不想使用EF,NH等重量级ORM,或者想学习ORM的设计及源码，欢迎使用和学习TsORM **
 
  
 ### How To Use
