@@ -1,7 +1,6 @@
+## TsOrm
 
-**TsOrm: too simple, 如果你不想使用EF,NH等重量级ORM,或者想学习ORM的设计及源码，欢迎使用和学习TsORM **
 
- 
 ### How To Use
 TsOrm使用非常简单,代码如下：
 #### 创建IOrm , TsOrm 支持 SqlServer、MySql、PostgreSQL 
@@ -73,3 +72,6 @@ TsOrm使用非常简单,代码如下：
 > * IDataReader ExcuteDataReaders()
 > * IDbCommand GetDbCommand(string sqlStr, DbParameter[] parameters)
 > * DbParameter GetDbParameter(string parameterName, object value)
+
+
+**TsOrm: too simple, 如果你不想使用EF,NH等重量级ORM,或者想学习ORM的设计及源码，欢迎使用和学习TsOrm**
